@@ -50,3 +50,9 @@ header {
   padding: 0 1em;
   position: relative;
 }
+
+.toggle-btn {
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
