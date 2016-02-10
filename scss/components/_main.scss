@@ -72,6 +72,7 @@ header {
 		width: 40px;
 		display: inline-block;
 	}
+    
   span{
     @include element-invisible ;
   }
@@ -138,4 +139,4 @@ body.noscript .slide-menu{
   position: static;
   right: auto;
 }
-}
+
