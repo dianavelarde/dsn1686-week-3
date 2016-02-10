@@ -45,3 +45,8 @@ body.noscript .close-btn,
 body.noscript .toggle-btn {
   display: none;
 }
+
+header {
+  padding: 0 1em;
+  position: relative;
+}
