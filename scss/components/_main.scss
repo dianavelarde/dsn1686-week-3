@@ -58,3 +58,25 @@ header {
     }
   } // li
 } // .navigation ul
+
+.toggle-btn,
+.close-btn{
+  color: $text-color;
+	text-decoration: none;
+	height: 40px;
+	width: 40px;
+	&:before{
+		border: 1px solid $light-grey;
+		padding: 13px 11px;
+		height: 40px;
+		width: 40px;
+		display: inline-block;
+	}
+  span{
+    @include element-invisible ;
+  }
+}
+
+.close-btn{
+  margin: 1em;
+}
