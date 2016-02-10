@@ -26,21 +26,20 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
-}
 
 header {
   padding: 0 1em;
   position: relative;
 }
-
-
+      
+    
     .toggle-btn{
     position: absolute;
     right: 1em;
     top: 0;
   }
     
-.navigation{
+    .navigation{
         ul{
             padding:0; 
         }
@@ -72,7 +71,6 @@ header {
 		width: 40px;
 		display: inline-block;
 	}
-    
   span{
     @include element-invisible ;
   }
@@ -81,6 +79,7 @@ header {
 .close-btn{
   margin: 1em;
 }
+
 
 /**
  * Sliding Navigation
@@ -139,4 +138,4 @@ body.noscript .slide-menu{
   position: static;
   right: auto;
 }
-
+}
