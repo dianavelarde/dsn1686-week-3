@@ -76,3 +76,33 @@ header {
   border-bottom: 1px solid #ccc;
   text-decoration: none;
 }
+
+.toggle-btn,
+.close-btn {
+  color: #222;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+}
+
+.toggle-btn:before,
+.close-btn:before {
+  border: 1px solid #ccc;
+  padding: 13px 11px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.toggle-btn span,
+.close-btn span {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.close-btn {
+  margin: 1em;
+}
