@@ -56,3 +56,23 @@ header {
   right: 1em;
   top: 0;
 }
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation li:first-child a {
+  border-top: 1px solid #ccc;
+}
+
+.navigation li a {
+  display: block;
+  padding: .5em 1em;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
