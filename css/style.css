@@ -70,11 +70,21 @@ body .navigation li {
 }
 
 body .navigation a {
+  padding: 0.5em 1em;
   display: block;
-  padding: .5em 1em;
   text-align: center;
-  border-bottom: 1px solid #ccc;
   text-decoration: none;
+  color: #222;
+}
+
+body .navigation a:focus {
+  background-color: #c10000;
+  color: #fff;
+}
+
+body .navigation a:hover {
+  background-color: #fa940b;
+  color: #fff;
 }
 
 body .toggle-btn,

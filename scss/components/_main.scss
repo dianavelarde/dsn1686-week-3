@@ -49,13 +49,22 @@ header {
   }
             
     a{
+      padding: 0.5em 1em;
       display: block;
-      padding: .5em 1em;
       text-align: center;
-      border-bottom: 1px solid $light-grey;
       text-decoration: none;
+      color: $text-color;
+        &:focus{
+      background-color: $red;
+      color: #fff;
     }
-  } 
+    &:hover{
+      background-color: $mustard-yellow;
+      color: $white;
+    }
+  }
+    }
+   
 
 .toggle-btn,
 .close-btn{
