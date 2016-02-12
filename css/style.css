@@ -66,13 +66,10 @@ body .navigation ul {
 
 body .navigation li {
   list-style-type: none;
+  background-color: white;
 }
 
-body .navigation li:first-child a {
-  border-top: 1px solid #ccc;
-}
-
-body .navigation li a {
+body .navigation a {
   display: block;
   padding: .5em 1em;
   text-align: center;
