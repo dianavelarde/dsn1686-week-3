@@ -26,6 +26,8 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
+    position: relative;
+}
 
 header {
   padding: 0 1em;
@@ -147,5 +149,4 @@ header {
 body.noscript .navigation{
   position: static;
   right: auto;
-}
 }

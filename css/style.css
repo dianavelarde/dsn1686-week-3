@@ -39,9 +39,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  /**
- * Sliding Navigation
- */
+  position: relative;
 }
 
 body.noscript .close-btn,
@@ -49,31 +47,31 @@ body.noscript .toggle-btn {
   display: none;
 }
 
-body header {
+header {
   padding: 0 1em;
   position: relative;
 }
 
-body .toggle-btn {
+.toggle-btn {
   position: absolute;
   right: 1em;
   top: 0;
 }
 
-body .navigation ul {
+.navigation ul {
   padding: 0;
 }
 
-body .navigation li {
+.navigation li {
   list-style-type: none;
   background-color: white;
 }
 
-body .navigation li:first-child a {
+.navigation li:first-child a {
   border-top: 1px;
 }
 
-body .navigation li a {
+.navigation li a {
   padding: 0.5em 1em;
   display: block;
   text-align: center;
@@ -81,34 +79,34 @@ body .navigation li a {
   color: #222;
 }
 
-body .navigation li a:focus {
+.navigation li a:focus {
   background-color: #c10000;
   color: #fff;
 }
 
-body .navigation li a:hover {
+.navigation li a:hover {
   background-color: #fa940b;
   color: #fff;
 }
 
-body .toggle-btn,
-body .close-btn {
+.toggle-btn,
+.close-btn {
   color: #222;
   text-decoration: none;
   height: 40px;
   width: 40px;
 }
 
-body .toggle-btn:before,
-body .close-btn:before {
+.toggle-btn:before,
+.close-btn:before {
   padding: 13px 11px;
   height: 40px;
   width: 40px;
   display: inline-block;
 }
 
-body .toggle-btn span,
-body .close-btn span {
+.toggle-btn span,
+.close-btn span {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -116,18 +114,21 @@ body .close-btn span {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-body .close-btn {
+.close-btn {
   margin: 1em;
 }
 
+/**
+ * Sliding Navigation
+ */
 @media only screen and (max-width: 60em) {
-  body .site-wrapper {
+  .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100;
   }
-  body .site-wrapper .sliding-canvas {
+  .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
     position: relative;
@@ -138,13 +139,13 @@ body .close-btn {
     -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
   }
-  body .site-wrapper[data-state='slide-open'] .sliding-canvas {
+  .site-wrapper[data-state='slide-open'] .sliding-canvas {
     transform: translateX(-100%);
   }
-  body .site-wrapper[data-state='slide-open'] {
+  .site-wrapper[data-state='slide-open'] {
     overflow: visible;
   }
-  body .navigation {
+  .navigation {
     position: absolute;
     width: 100%;
     right: -100%;
@@ -156,13 +157,13 @@ body .close-btn {
 }
 
 @media only screen and (min-width: 60em) {
-  body .toggle-btn,
-  body .close-btn {
+  .toggle-btn,
+  .close-btn {
     display: none;
   }
 }
 
-body body.noscript .navigation {
+body.noscript .navigation {
   position: static;
   right: auto;
 }
