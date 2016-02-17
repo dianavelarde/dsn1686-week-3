@@ -62,16 +62,16 @@ header {
   padding: 0;
 }
 
-.navigation li {
+.navigation ul li {
   list-style-type: none;
   background-color: white;
 }
 
-.navigation li:first-child a {
+.navigation ul li:first-child a {
   border-top: 1px;
 }
 
-.navigation li a {
+.navigation ul li a {
   padding: 0.5em 1em;
   display: block;
   text-align: center;
@@ -79,12 +79,12 @@ header {
   color: #222;
 }
 
-.navigation li a:focus {
+.navigation ul li a:focus {
   background-color: #c10000;
   color: #fff;
 }
 
-.navigation li a:hover {
+.navigation ul li a:hover {
   background-color: #fa940b;
   color: #fff;
 }
