@@ -71,7 +71,7 @@ header {
 
 .toggle-btn,
 .close-btn{
-  color: $text-color;
+    color: $text-color;
 	text-decoration: none;
 	height: 40px;
 	width: 40px;
@@ -80,8 +80,9 @@ header {
 		height: 40px;
 		width: 40px;
 		display: inline-block;
-	}
-  span{
+    }
+    
+    span{
     @include element-invisible ;
   }
 }
@@ -113,13 +114,15 @@ header {
 
     &[data-state='slide-open'] .sliding-canvas{
       transform: translateX(-100%);
+        .toggle-btn{
+        display: none;
+        }
+      }
     }
 
     &[data-state='slide-open']{
-      // Allow expansion of navigation past page height, when open
       overflow:visible;
     }
-  }
 
   // Nav styles
   .navigation{
