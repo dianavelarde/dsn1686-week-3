@@ -39,7 +39,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  position: relative;
 }
 
 body.noscript .close-btn,
@@ -49,7 +48,7 @@ body.noscript .toggle-btn {
 
 header {
   padding: 0 1em;
-  height: 4em;
+  height: 7em;
   position: relative;
 }
 
