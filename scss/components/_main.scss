@@ -68,20 +68,20 @@ header {
     }
     
     li:hover{
-        color:  $mustard-yellow;
+       background-color: $mustard-yellow;
     }
 }
 
 .toggle-btn,
 .close-btn{
-    color: $text-color;
+    color: $red;
 	text-decoration: none;
 	height: 40px;
 	width: 40px;
 	&:before{
+        height: 40px;
+        width: 40px;
 		padding: 13px 11px;
-		height: 40px;
-		width: 40px;
 		display: inline-block;
     }
     
