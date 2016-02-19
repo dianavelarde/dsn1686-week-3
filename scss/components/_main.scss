@@ -94,6 +94,10 @@ header {
   margin: 1em;
 }
 
+.image{
+    @include img;
+}
+
 
 /**
  * Sliding Navigation
@@ -142,6 +146,7 @@ header {
   .toggle-btn,
   .close-btn{
     display: none;
+      @include element-invisible
   }
     .navigation ul{
         display: inline-block;
