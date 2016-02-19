@@ -140,10 +140,7 @@ header {
   .site-wrapper[data-state='slide-open'] .sliding-canvas {
     transform: translateX(-100%);
   }
-  .site-wrapper[data-state='slide-open'] .sliding-canvas .toggle-btn {
-    display: none;
-  }
-  [data-state='slide-open'] {
+  .site-wrapper[data-state='slide-open'] {
     overflow: visible;
   }
   .navigation {
@@ -161,6 +158,15 @@ header {
   .toggle-btn,
   .close-btn {
     display: none;
+  }
+  .navigation ul {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 1.5em;
+  }
+  li {
+    display: inline-block;
   }
 }
 
