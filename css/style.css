@@ -53,6 +53,14 @@ header {
   position: relative;
 }
 
+.logo {
+  top: 1em;
+  height: 3em;
+  position: absolute;
+  display: block;
+  left: 2em;
+}
+
 .toggle-btn {
   position: absolute;
   right: 1em;
