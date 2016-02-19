@@ -49,34 +49,28 @@ header {
     top: 1em;
 }
 
-.navigation ul{
-            padding:0; 
+.navigation {
+    
+    ul{
+        padding:0; 
+    }
+    
     li{
         list-style-type: none;
-        background-color: white;
-        &:first-child a{
-            border-top: 1px;
-		}
-        
-        a{
-            padding: 0.5em 1em;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            color: $text-color;
-            &:focus{
-                background-color: $red;
-                color: #fff;
-            }
-            
-            &:hover{
-                background-color: $mustard-yellow;
-                color: $white;
-            }
-        }
+    }
+    
+    a{
+        padding: 0.5em 1em;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: $text-color;
+    }
+    
+    li:hover{
+        color:  $mustard-yellow;
     }
 }
-   
 
 .toggle-btn,
 .close-btn{
