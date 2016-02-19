@@ -84,6 +84,7 @@ header {
 }
 
 .navigation li:hover {
+  color: #fa940b;
 }
 
 .toggle-btn,
